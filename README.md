@@ -1,5 +1,6 @@
 ## Instructions
 
+
 ### Requirements
 
 ```shell
@@ -18,3 +19,5 @@ Run the following command
 ```shell
 streamlit run .\src\main_ui.py
 ```
+
+Refer to the docs for more info about the APIs
