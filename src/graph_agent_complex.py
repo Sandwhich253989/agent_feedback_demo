@@ -523,6 +523,6 @@ def compile_graph():
     builder.set_entry_point("ai_generate_with_confidence")
 
     # Compile
-    graph = builder.compile()
+    graph = builder.compile(checkpointer=checkpointer)
 
     return graph
